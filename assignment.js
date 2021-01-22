@@ -73,4 +73,4 @@ function megaFriend(friendsName) {
 	}
 }
 
-console.log(megaFriend([]));
+
