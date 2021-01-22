@@ -68,7 +68,7 @@ function megaFriend(friendsName) {
 		//traversing array and getting the longest friend name
 		for (let i = 0; i < friendsName.length; i++) {
 			temp = friendsName[i];
-			console.log(temp);
+			
 			if (longestName.length < temp.length) {
 				longestName = temp;
 			}
@@ -77,10 +77,6 @@ function megaFriend(friendsName) {
 	}
 }
 
-//debug purpose code
-// console.log(kilometerToMeter(.1));
-// console.log(budgetCalculator(3, 5, 7));
-// console.log(hotelCost(12));
-//console.log(megaFriend(["tumpa", "akif", "sabbir", "sharmin", "sochib", "juhi",""]));
+
 
 
