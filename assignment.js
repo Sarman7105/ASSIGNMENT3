@@ -16,7 +16,10 @@ function budgetCalculator(numOfWatch, numOfPhone, numOfLaptop) {
 	
 	else {
 		var totalCost;
-		totalCost = 50 * numOfWatch + 100 * numOfPhone + 500 * numOfLaptop;
+		var watchPrice = 50;
+		var phonePrice = 100;
+		var laptopPrice = 500;
+		totalCost = watchPrice * numOfWatch + phonePrice * numOfPhone + laptopPrice * numOfLaptop;
 		return totalCost;
 	}
 }
