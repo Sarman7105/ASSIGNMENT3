@@ -3,7 +3,7 @@
 function kilometerToMeter(lengthInKm) {
 	
 	if (lengthInKm < 0)
-		return 'Negative Value Not Allowed!';
+		return 'Negative Values are Not Allowed!';
 	
 	else
 		return lengthInKm * 1000;
@@ -12,7 +12,7 @@ function kilometerToMeter(lengthInKm) {
 function budgetCalculator(numOfWatch, numOfPhone, numOfLaptop) {
 	
 	if (numOfWatch < 0 || numOfPhone < 0 || numOfLaptop < 0)
-		return 'Negative Value Not Allowed!';
+		return 'Negative Values are Not Allowed!';
 	
 	else {
 		var totalCost;
@@ -24,7 +24,7 @@ function budgetCalculator(numOfWatch, numOfPhone, numOfLaptop) {
 function hotelCost(numberOfNightSpent) {
 
 	if (numberOfNightSpent < 0)
-		return 'Negative Value Not Allowed!';
+		return 'Negative Values are Not Allowed!';
 	
 	else {
 		var totalRent = 0;
